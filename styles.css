@@ -1,0 +1,146 @@
+.arrow {
+    position: fixed;
+    right: 1%;
+    bottom: 10%;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+h5 {
+    color: blue;
+}
+
+svg {
+    margin-left: 10px;
+    color: blue;
+}
+
+svg:hover{
+    opacity: 0.5;
+}
+
+i {
+    font-size: 2rem;
+}
+
+i:hover {
+    color: blue;
+}
+
+/* Navbar Section */
+.navbar {
+    padding: 2% 5%;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.intro-content {
+    padding: 2% 5%;
+}
+
+.carousel-control-prev {
+    top: 50%;
+    bottom: 50%;
+}
+
+.carousel-control-next {
+    top: 50%;
+    bottom: 50%;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 0;
+    padding: 30px 10px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    right: 0;
+    padding: 30px 10px;
+}
+
+/* Services */
+
+#services {
+    background-color: #F3F4F7; 
+    padding: 6% 5%;
+}
+
+/* Project */
+
+#project {
+    padding: 6% 5% 2%;
+}
+
+.qatra:hover {
+    opacity: 0.8;
+}
+
+.qatra-container {
+    position: relative;
+}
+
+.qatra-text {
+    /* display: none; */
+    color: white;
+    position: absolute;
+    left: 13%;
+    bottom: 70%;
+    font-size: 1rem;
+    display: none;
+}
+
+.qatra-container:hover .qatra-text {
+    display: block;
+}
+
+.tech > div {
+    margin-bottom: 20px;
+}
+
+/* Team */
+
+#team {
+    background-color: #F3F4F7;
+    padding: 6% 5%;
+}
+
+/* Footer */
+
+#footer {
+    padding: 5%;
+}
+
+.social p {
+    margin-bottom: 0;
+}
+
+.social i {
+    color: blue;
+}
+
+.social i:hover {
+    color: black;
+}
+
+#footer h5 {
+    color: black;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
